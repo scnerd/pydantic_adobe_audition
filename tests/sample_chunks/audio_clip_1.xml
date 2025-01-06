@@ -1,0 +1,85 @@
+<audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="1498588" fileID="0"
+           hue="-1" id="0" lockedInTime="false" looped="false" name="intro (30s)" offline="false" select="false"
+           sourceInPoint="0" sourceOutPoint="1498588" startPoint="0" zOrder="0">
+    <properties
+            properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;music&quot;},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:2},&quot;DuckingSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Ducker&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;UUID&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;6e6e4756-8d3e-460f-8f54-99a01767f14a&quot;}}},&quot;Ducking&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;6&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:-8}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:1}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;DurationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:false}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;61210989-1842-4ed3-baad-f1bb4d2bea37&quot;},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+    <effectsRack preFader="true">
+        <component componentGuid="0776e325-0e9d-4ba4-b306-d7e5035ce6fc" componentID="Audition.ComponentGroup"
+                   id="rackMix" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" parameterValue="0"/>
+        </component>
+        <component componentGuid="917e3b61-ea91-4a8a-91f3-f96631935e53" id="rackInput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+        </component>
+        <component componentGuid="18458390-4b94-4339-a534-99cb054ad292" id="rackOutput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+        </component>
+        <slot powered="true" slotIndex="0">
+            <component componentGuid="6e6e4756-8d3e-460f-8f54-99a01767f14a"
+                       componentID="f14fee7d-fe5f-4202-b790-f53209e56411" name="Amplify" presetName="(Default)">
+                <busConfig>
+                    <![CDATA[{"in":[{"layout":[0,0],"name":"","type":0}],"out":[{"layout":[0,0],"name":"","type":0}]}]]></busConfig>
+                <parameter index="0" name="Channel Count" parameterValue="0.0625"/>
+                <parameter index="1" name="Link Sliders" parameterValue="1"/>
+                <parameter index="2" name="1" parameterValue="0.66666698455810546875"/>
+                <parameter index="3" name="2" parameterValue="0.66666698455810546875"/>
+                <parameter index="4" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="5" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="6" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="7" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="8" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="9" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="10" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="11" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="12" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="13" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="14" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="15" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="16" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="17" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="18" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="19" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="20" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="21" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="22" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="23" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="24" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="25" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="26" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="27" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="28" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="29" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="30" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="31" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="32" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="33" name="" parameterValue="0.666666686534881591796875"/>
+                <parameter index="34" name="Link Keyframes" parameterValue="1"/>
+            </component>
+        </slot>
+    </effectsRack>
+    <component componentGuid="564f2511-5d98-492a-8205-41a983977900" componentID="Audition.Fader" id="clipGain"
+               name="volume" powered="true">
+        <parameter index="0" name="volume" parameterValue="1"/>
+        <parameter index="1" name="static gain" parameterValue="1"/>
+    </component>
+    <component componentGuid="aee4cbe6-7916-4c05-b4e6-53067707cd17" componentID="Audition.Mute" id="clipMute"
+               name="Mute" powered="true">
+        <parameter index="0" parameterValue="0"/>
+        <parameter index="1" name="mute" parameterValue="0"/>
+    </component>
+    <component componentGuid="23eb534d-9d66-4c9c-83e4-2a8625b861f3" componentID="Audition.StereoPanner" id="clipPan"
+               name="StereoPanner" powered="true">
+        <parameter index="0" name="Pan" parameterValue="0"/>
+    </component>
+    <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+    <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="1498588" shape="19" startPoint="1498588" type="log"/>
+    <editParameter parameterIndex="0" slotIndex="4294967280"/>
+    <editParameter parameterIndex="0" slotIndex="4294967281"/>
+    <channelMap>
+        <channel index="0" sourceIndex="0"/>
+        <channel index="1" sourceIndex="1"/>
+    </channelMap>
+</audioClip>

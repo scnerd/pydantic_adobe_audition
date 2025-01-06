@@ -1,0 +1,38 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "pydantic-adobe-audition"
+dynamic = ["version", "description"]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2",
+    "pydantic-xml",
+]
+
+[dependency-groups]
+dev = [
+    "griffe-pydantic",
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocstrings[python]",
+    "pytest",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+unsafe-fixes = true
+
+[tool.ruff.lint]
+select = [
+    "F",
+    "E",
+    "W",
+    "C90",
+    "I",
+    "N",
+    "UP",
+]

@@ -1,0 +1,26 @@
+<audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="155126155"
+           fileID="2" hue="-1" id="0" lockedInTime="false" looped="false" name="Greg" offline="false" select="false"
+           sourceInPoint="0" sourceOutPoint="152480155" startPoint="2646000" zOrder="7">
+    <component componentGuid="bca5ea52-9389-48ff-aec3-d08fa0b365ff" componentID="Audition.Fader" id="clipGain"
+               name="volume" powered="true">
+        <parameter index="0" name="volume" parameterValue="1"/>
+        <parameter index="1" name="static gain" parameterValue="1"/>
+    </component>
+    <component componentGuid="ae2711d1-fa7c-4fe4-85c6-8a44327aba6e" componentID="Audition.Mute" id="clipMute"
+               name="Mute" powered="true">
+        <parameter index="0" parameterValue="0"/>
+        <parameter index="1" name="mute" parameterValue="0"/>
+    </component>
+    <component componentGuid="d81e5189-7298-4b54-ad97-35a884e84b1d" componentID="Audition.StereoPanner" id="clipPan"
+               name="StereoPanner" powered="true">
+        <parameter index="0" name="Pan" parameterValue="0"/>
+    </component>
+    <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+    <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="152480155" shape="19" startPoint="152480155"
+             type="log"/>
+    <editParameter parameterIndex="0" slotIndex="4294967280"/>
+    <editParameter parameterIndex="0" slotIndex="4294967281"/>
+    <channelMap>
+        <channel index="0" sourceIndex="0"/>
+    </channelMap>
+</audioClip>
