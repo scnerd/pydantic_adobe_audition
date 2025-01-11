@@ -9,6 +9,7 @@ from pydantic_adobe_audition.model import Sesx
 from pydantic_adobe_audition.model.session import Tracks
 from pydantic_adobe_audition.model.session.tracks import AudioTrack, BusTrack, MasterTrack
 from pydantic_adobe_audition.model.session.tracks.audio import AudioClip
+from pydantic_adobe_audition.model.session.tracks.common.effects_rack import EffectsRack
 
 from . import TEST_ROOT
 
@@ -24,7 +25,7 @@ def _normalize_xml(xml_content: str) -> str:
 
 
 def _check(model: type[BaseXmlModel], path: Path):
-    xml_content = path.read_text()
+    xml_content = path.read_text(encoding="utf-8-sig")  # <-- This is important, strips BOM (Byte Order Mark)
 
     # Check that the XML even parses properly
     parsed = model.from_xml(xml_content)
@@ -39,26 +40,37 @@ def test_sesx(path):
     _check(Sesx, path)
 
 
+# AudioClip
 @pytest.mark.parametrize("path", list(TEST_ROOT.glob("sample_chunks/audio_clip_*.xml")), ids=_stem)
 def test_audio_clip(path):
     _check(AudioClip, path)
 
 
+# AudioTrack
 @pytest.mark.parametrize("path", list(TEST_ROOT.glob("sample_chunks/audio_track_*.xml")), ids=_stem)
 def test_audio_track(path):
     _check(AudioTrack, path)
 
 
+# BusTrack
 @pytest.mark.parametrize("path", list(TEST_ROOT.glob("sample_chunks/bus_track_*.xml")), ids=_stem)
 def test_bus_track(path):
     _check(BusTrack, path)
 
 
+# MasterTrack
 @pytest.mark.parametrize("path", list(TEST_ROOT.glob("sample_chunks/master_track_*.xml")), ids=_stem)
 def test_master_track(path):
     _check(MasterTrack, path)
 
 
+# Tracks
 @pytest.mark.parametrize("path", list(TEST_ROOT.glob("sample_chunks/tracks_*.xml")), ids=_stem)
 def test_tracks(path):
     _check(Tracks, path)
+
+
+# EffectsRack
+@pytest.mark.parametrize("path", list(TEST_ROOT.glob("sample_chunks/effects_rack_*.xml")), ids=_stem)
+def test_effects_rack(path):
+    _check(EffectsRack, path)

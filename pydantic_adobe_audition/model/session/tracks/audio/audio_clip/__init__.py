@@ -1,26 +1,12 @@
 from pydantic_xml import attr, element
 
 from pydantic_adobe_audition.common import BaseSesxModel
-from pydantic_adobe_audition.model.session.tracks.audio.audio_clip.channel_map import AudioClipChannelMap
-from pydantic_adobe_audition.model.session.tracks.audio.audio_clip.component import TracksAudioTrackAudioClipComponent
-from pydantic_adobe_audition.model.session.tracks.audio.audio_clip.edit_parameters import AudioClipEditParameter
-from pydantic_adobe_audition.model.session.tracks.audio.audio_clip.effects_rack import AudioClipEffectsRack
+from pydantic_adobe_audition.model.common.channel_map import ChannelMap
+from pydantic_adobe_audition.model.common.edit_parameter import EditParameter
+from pydantic_adobe_audition.model.session.tracks.audio.audio_clip.fade import FadeIn, FadeOut
 from pydantic_adobe_audition.model.session.tracks.audio.audio_clip.properties import AudioClipProperties
-
-
-class _Fade(BaseSesxModel, __xml_abstract__=True):
-    cross_fade_link_type: str = attr(name="crossFadeLinkType")
-    end_point: str = attr(name="endPoint")
-    shape: str = attr(name="shape")
-    start_point: str = attr(name="startPoint")
-
-
-class FadeIn(_Fade, tag="fadeIn"):
-    fade_in_type: str = attr(name="type")
-
-
-class FadeOut(_Fade, tag="fadeOut"):
-    fade_out_type: str = attr(name="type")
+from pydantic_adobe_audition.model.session.tracks.common.component import Component
+from pydantic_adobe_audition.model.session.tracks.common.effects_rack import EffectsRack
 
 
 class AudioClip(BaseSesxModel, tag="audioClip"):
@@ -40,11 +26,10 @@ class AudioClip(BaseSesxModel, tag="audioClip"):
     source_out_point: int = attr(name="sourceOutPoint")
     start_point: int = attr(name="startPoint")
     z_order: int = attr(name="zOrder")
-    text: str | None = None
     properties: AudioClipProperties | None = element(default=None)
-    effects_rack: AudioClipEffectsRack | None = element(default=None)
-    components: list[TracksAudioTrackAudioClipComponent] = element(default_factory=list)
+    effects_rack: EffectsRack | None = element(default=None)
+    components: list[Component] = element(default_factory=list)
     fade_in: FadeIn = element()
     fade_out: FadeOut = element()
-    edit_parameters: list[AudioClipEditParameter] = element(default_factory=list)
-    channel_map: AudioClipChannelMap = element()
+    edit_parameters: list[EditParameter] = element(default_factory=list)
+    channel_map: ChannelMap = element()

@@ -1,0 +1,63 @@
+<effectsRack preFader="true">
+    <component componentGuid="6afc4475-7206-43ed-b065-83f28f8b85a5" componentID="Audition.ComponentGroup"
+               id="rackMix" powered="true">
+        <parameter index="0" parameterValue="0"/>
+        <parameter index="1" parameterValue="0"/>
+    </component>
+    <component componentGuid="59a2e546-b104-4345-86b2-0f932584afd8" id="rackInput" powered="true">
+        <parameter index="0" parameterValue="1"/>
+        <parameter index="1" parameterValue="0"/>
+    </component>
+    <component componentGuid="1256c7be-a66e-48ce-82e9-f5026e3e2b41" id="rackOutput" powered="true">
+        <parameter index="0" parameterValue="1"/>
+        <parameter index="1" parameterValue="0"/>
+    </component>
+    <slot powered="true" slotIndex="0">
+        <component componentGuid="d04e903d-9380-4b64-bb54-29b0eb04c567"
+                   componentID="f76dad9c-77da-477a-9939-eefefc5c23bd" name="Dynamics Processing"
+                   presetName="(Default)">
+            <busConfig>
+                <![CDATA[{"in":[{"layout":[100,101],"name":"","type":0},{"layout":[100,101],"name":"Side-Chain In","type":1}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+            <channelMap direction="input">
+                <channel index="0" sourceIndex="0"/>
+                <channel index="1" sourceIndex="1"/>
+            </channelMap>
+            <parameter index="0" name="Level Detector - Attack Time"
+                       parameterValue="0.00200000009499490261077880859375"/>
+            <parameter index="1" name="Level Detector - Release Time"
+                       parameterValue="0.0500000007450580596923828125"/>
+            <parameter index="2" name="Gain Processor - Attack Time"
+                       parameterValue="0.048000000417232513427734375"/>
+            <parameter index="3" name="Gain Processor - Release Time"
+                       parameterValue="0.0500000007450580596923828125"/>
+            <parameter index="4" name="Lookahead Time" parameterValue="0.006000000052154064178466796875"/>
+            <parameter index="5" name="Input Gain" parameterValue="0.5"/>
+            <parameter index="6" name="Output Gain" parameterValue="0.5"/>
+            <parameter index="7" name="Low Cutoff" parameterValue="0"/>
+            <parameter index="8" name="High Cutoff" parameterValue="1"/>
+            <parameter index="9" name="Lock Filter" parameterValue="0"/>
+            <parameter index="10" name="Number of X/Y Pairs" parameterValue="0.857142865657806396484375"/>
+            <parameter index="11" name="Link Channels" parameterValue="0"/>
+            <parameter index="12" name="Peak/RMS" parameterValue="1"/>
+            <parameter index="13" name="Envelope Only" parameterValue="0"/>
+            <parameter index="14" name="Spline Curves" parameterValue="1"/>
+            <parameter index="15" name="Noise Gating (if expanding more than 50:1)" parameterValue="0"/>
+            <parameter index="16" name="Current Tab" parameterValue="1"/>
+            <parameter index="17" name="Location1" parameterValue="0"/>
+            <parameter index="18" name="Value1" parameterValue="0"/>
+            <parameter index="19" name="Location2" parameterValue="0.19891418516635894775390625"/>
+            <parameter index="20" name="Value2" parameterValue="0.07956565916538238525390625"/>
+            <parameter index="21" name="Location3" parameterValue="0.31826269626617431640625"/>
+            <parameter index="22" name="Value3" parameterValue="0.260975420475006103515625"/>
+            <parameter index="23" name="Location4" parameterValue="0.4078284204006195068359375"/>
+            <parameter index="24" name="Value4" parameterValue="0.4078284204006195068359375"/>
+            <parameter index="25" name="Location5" parameterValue="0.685686886310577392578125"/>
+            <parameter index="26" name="Value5" parameterValue="0.80852854251861572265625"/>
+            <parameter index="27" name="Location6" parameterValue="1"/>
+            <parameter index="28" name="Value6" parameterValue="0.98800003528594970703125"/>
+            <parameter index="29" name="Location7" parameterValue="0.5"/>
+            <parameter index="30" name="Value7" parameterValue="0.5"/>
+            <parameter index="31" name="Make-Up Gain" parameterValue="0"/>
+        </component>
+    </slot>
+</effectsRack>

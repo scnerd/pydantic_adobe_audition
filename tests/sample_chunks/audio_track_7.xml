@@ -1,0 +1,811 @@
+<audioTrack automationLaneOpenState="false" id="10003" index="3" select="true" visible="true">
+    <trackParameters trackHeight="229" trackHue="51" trackMinimized="false">
+        <name>Rachel</name>
+    </trackParameters>
+    <trackAudioParameters audioChannelType="stereo" automationMode="1" monitoring="false" recordArmed="false"
+                          solo="false" soloSafe="false">
+        <trackOutput outputID="10007" type="trackID"/>
+        <trackInput inputID="1"/>
+        <component componentGuid="45af74f7-4438-4c36-939b-0a72d0cacdc2" componentID="Audition.Fader" id="trackFader"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="e0f87d8a-711c-466b-9eae-c053855c44c0" componentID="Audition.Mute" id="trackMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="fb7cbcd8-4954-4a9f-a7b0-a9f82f906267" componentID="Audition.StereoPanner"
+                   id="trackPan" name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="10"/>
+        </component>
+        <component componentGuid="cc69b100-8e96-4b7a-ae74-833f6273e376" componentID="Audition.EQ" id="trackEQ" name="EQ"
+                   powered="false">
+            <parameter index="0" name="Low Shelf Frequency" parameterValue="0.0009078529546968638896942138671875"/>
+            <parameter index="1" name="Low Shelf Gain" parameterValue="0.5"/>
+            <parameter index="2" name="High Shelf Frequency" parameterValue="0.816159784793853759765625"/>
+            <parameter index="3" name="High Shelf Gain" parameterValue="0.5"/>
+            <parameter index="4" name="EQ Band 1 Center Frequency" parameterValue="0.0013617794029414653778076171875"/>
+            <parameter index="5" name="EQ Band 1 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="6" name="EQ Band 1 Gain" parameterValue="0.5"/>
+            <parameter index="7" name="EQ Band 1 Enable" parameterValue="1"/>
+            <parameter index="8" name="EQ Band 2 Center Frequency" parameterValue="0.008170676417648792266845703125"/>
+            <parameter index="9" name="EQ Band 2 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="10" name="EQ Band 2 Gain" parameterValue="0.5"/>
+            <parameter index="11" name="EQ Band 2 Enable" parameterValue="1"/>
+            <parameter index="12" name="EQ Band 3 Center Frequency" parameterValue="0.0354062654078006744384765625"/>
+            <parameter index="13" name="EQ Band 3 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="14" name="EQ Band 3 Gain" parameterValue="0.5"/>
+            <parameter index="15" name="EQ Band 3 Enable" parameterValue="1"/>
+            <parameter index="16" name="EQ Band 4 Center Frequency" parameterValue="0.144348621368408203125"/>
+            <parameter index="17" name="EQ Band 4 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="18" name="EQ Band 4 Gain" parameterValue="0.5"/>
+            <parameter index="19" name="EQ Band 4 Enable" parameterValue="1"/>
+            <parameter index="20" name="EQ Band 5 Center Frequency" parameterValue="0.580118000507354736328125"/>
+            <parameter index="21" name="EQ Band 5 Q" parameterValue="0.000199989997781813144683837890625"/>
+            <parameter index="22" name="EQ Band 5 Gain" parameterValue="0.5"/>
+            <parameter index="23" name="EQ Band 5 Enable" parameterValue="1"/>
+            <parameter index="24" name="Gain" parameterValue="0.666666686534881591796875"/>
+            <parameter index="25" name="ConstantQ" parameterValue="1"/>
+            <parameter index="26" name="Low Shelf Filter Order" parameterValue="0"/>
+            <parameter index="27" name="High Shelf Filter Order" parameterValue="0"/>
+            <parameter index="28" name="Ultra-Quiet Mode" parameterValue="0"/>
+            <parameter index="29" name="Low Shelf Enable" parameterValue="1"/>
+            <parameter index="30" name="High Shelf Enable" parameterValue="1"/>
+            <parameter index="31" name="Original Sample Rate" parameterValue="0.22968749701976776123046875"/>
+            <parameter index="32" name="EQ Band 1 Bandwidth" parameterValue="0.002499990165233612060546875"/>
+            <parameter index="33" name="EQ Band 2 Bandwidth" parameterValue="0.0099999904632568359375"/>
+            <parameter index="34" name="EQ Band 3 Bandwidth" parameterValue="0.0399999916553497314453125"/>
+            <parameter index="35" name="EQ Band 4 Bandwidth" parameterValue="0.15999998152256011962890625"/>
+            <parameter index="36" name="EQ Band 5 Bandwidth" parameterValue="0.63999998569488525390625"/>
+            <parameter index="37" name="High-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="38" name="High-Pass Cutoff Frequency" parameterValue="0"/>
+            <parameter index="39" name="High-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="40" name="Low-Pass Filter Enable" parameterValue="0"/>
+            <parameter index="41" name="Low-Pass Cutoff Frequency" parameterValue="0.906945049762725830078125"/>
+            <parameter index="42" name="Low-Pass Slope" parameterValue="0.4000000059604644775390625"/>
+            <parameter index="43" name="Bypass" parameterValue="0"/>
+            <parameter index="44" name="LowGraphRange" parameterValue="1"/>
+        </component>
+    </trackAudioParameters>
+    <effectsRack preFader="true">
+        <component componentGuid="6afc4475-7206-43ed-b065-83f28f8b85a5" componentID="Audition.ComponentGroup"
+                   id="rackMix" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" parameterValue="0"/>
+        </component>
+        <component componentGuid="59a2e546-b104-4345-86b2-0f932584afd8" id="rackInput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+        </component>
+        <component componentGuid="1256c7be-a66e-48ce-82e9-f5026e3e2b41" id="rackOutput" powered="true">
+            <parameter index="0" parameterValue="1"/>
+            <parameter index="1" parameterValue="0"/>
+        </component>
+        <slot powered="true" slotIndex="0">
+            <component componentGuid="d04e903d-9380-4b64-bb54-29b0eb04c567"
+                       componentID="f76dad9c-77da-477a-9939-eefefc5c23bd" name="Dynamics Processing"
+                       presetName="(Default)">
+                <busConfig>
+                    <![CDATA[{"in":[{"layout":[100,101],"name":"","type":0},{"layout":[100,101],"name":"Side-Chain In","type":1}],"out":[{"layout":[100,101],"name":"","type":0}]}]]></busConfig>
+                <channelMap direction="input">
+                    <channel index="0" sourceIndex="0"/>
+                    <channel index="1" sourceIndex="1"/>
+                </channelMap>
+                <parameter index="0" name="Level Detector - Attack Time"
+                           parameterValue="0.00200000009499490261077880859375"/>
+                <parameter index="1" name="Level Detector - Release Time"
+                           parameterValue="0.0500000007450580596923828125"/>
+                <parameter index="2" name="Gain Processor - Attack Time"
+                           parameterValue="0.048000000417232513427734375"/>
+                <parameter index="3" name="Gain Processor - Release Time"
+                           parameterValue="0.0500000007450580596923828125"/>
+                <parameter index="4" name="Lookahead Time" parameterValue="0.006000000052154064178466796875"/>
+                <parameter index="5" name="Input Gain" parameterValue="0.5"/>
+                <parameter index="6" name="Output Gain" parameterValue="0.5"/>
+                <parameter index="7" name="Low Cutoff" parameterValue="0"/>
+                <parameter index="8" name="High Cutoff" parameterValue="1"/>
+                <parameter index="9" name="Lock Filter" parameterValue="0"/>
+                <parameter index="10" name="Number of X/Y Pairs" parameterValue="0.857142865657806396484375"/>
+                <parameter index="11" name="Link Channels" parameterValue="0"/>
+                <parameter index="12" name="Peak/RMS" parameterValue="1"/>
+                <parameter index="13" name="Envelope Only" parameterValue="0"/>
+                <parameter index="14" name="Spline Curves" parameterValue="1"/>
+                <parameter index="15" name="Noise Gating (if expanding more than 50:1)" parameterValue="0"/>
+                <parameter index="16" name="Current Tab" parameterValue="1"/>
+                <parameter index="17" name="Location1" parameterValue="0"/>
+                <parameter index="18" name="Value1" parameterValue="0"/>
+                <parameter index="19" name="Location2" parameterValue="0.19891418516635894775390625"/>
+                <parameter index="20" name="Value2" parameterValue="0.07956565916538238525390625"/>
+                <parameter index="21" name="Location3" parameterValue="0.31826269626617431640625"/>
+                <parameter index="22" name="Value3" parameterValue="0.260975420475006103515625"/>
+                <parameter index="23" name="Location4" parameterValue="0.4078284204006195068359375"/>
+                <parameter index="24" name="Value4" parameterValue="0.4078284204006195068359375"/>
+                <parameter index="25" name="Location5" parameterValue="0.685686886310577392578125"/>
+                <parameter index="26" name="Value5" parameterValue="0.80852854251861572265625"/>
+                <parameter index="27" name="Location6" parameterValue="1"/>
+                <parameter index="28" name="Value6" parameterValue="0.98800003528594970703125"/>
+                <parameter index="29" name="Location7" parameterValue="0.5"/>
+                <parameter index="30" name="Value7" parameterValue="0.5"/>
+                <parameter index="31" name="Make-Up Gain" parameterValue="0"/>
+            </component>
+        </slot>
+    </effectsRack>
+    <editParameter parameterIndex="0" slotIndex="4294967280"/>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="10089089" fileID="2"
+               hue="-1" id="0" lockedInTime="false" looped="false" name="Rachel" offline="false" select="false"
+               sourceInPoint="17075135" sourceOutPoint="17388448" startPoint="9775776" zOrder="0">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="a5f9e5df-6512-431f-9baf-9e874ae09319" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="56833dd8-92ed-4797-ba72-588db7934dc5" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="9b1057e4-3061-466e-9eca-79b5c6dbbf0d" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="313313" shape="19" startPoint="302288" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="10864720" fileID="2"
+               hue="-1" id="1" lockedInTime="false" looped="false" name="Rachel" offline="false" select="false"
+               sourceInPoint="17840182" sourceOutPoint="18187073" startPoint="10517829" zOrder="1">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="b99357c7-f467-45a4-ab01-98fffa19e92f" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="6a2ab169-5525-45b9-8060-85178580c638" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="b86c26d6-718c-4b01-855a-f7976c18caf1" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="346891" shape="19" startPoint="335866" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="13466341" fileID="2"
+               hue="-1" id="2" lockedInTime="false" looped="false" name="Rachel" offline="false" select="false"
+               sourceInPoint="23263331" sourceOutPoint="23326303" startPoint="13403369" zOrder="4">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="2752fc4a-a0ed-4d6d-80b1-76537d3f5678" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="70c1d1f7-7b58-4d2c-af6f-40e3192855e2" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="26340103-18e3-48d5-a780-60c7e98e7035" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="62972" shape="19" startPoint="51947" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="13598942" fileID="2"
+               hue="-1" id="3" lockedInTime="false" looped="false" name="Rachel" offline="false" select="false"
+               sourceInPoint="23405359" sourceOutPoint="23458903" startPoint="13545398" zOrder="2">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="ee0b632f-19be-42ca-849f-ec11b5fe41b0" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="ae4332f1-bdb5-4151-938b-51ef86cf8384" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="ad52d7cc-773f-4962-99c4-2bb1fe2cf69a" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="53544" shape="19" startPoint="53544" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="14382476" fileID="2"
+               hue="-1" id="4" lockedInTime="false" looped="false" name="Rachel" offline="false" select="false"
+               sourceInPoint="24181475" sourceOutPoint="24242437" startPoint="14321514" zOrder="3">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="1884e7c0-27ce-40fb-96f6-9173017aa7a0" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="d6746c5f-dce3-4099-bc11-466dacd61339" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="7916436e-004a-4eba-8028-be2e8d7ec6f7" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="60962" shape="19" startPoint="49937" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="44235212" fileID="2"
+               hue="-1" id="5" lockedInTime="false" looped="false" name="Rachel" offline="false" select="false"
+               sourceInPoint="54038999" sourceOutPoint="54135807" startPoint="44138404" zOrder="5">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="4e7dfc75-4ca6-4303-9270-9a943e4a249a" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="dcad0a4b-4b03-4cee-b85b-1ed96112963e" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="542f1bb7-d09a-4de3-93f4-52b3d37f8f3a" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="96808" shape="19" startPoint="96808" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="46332412" fileID="2"
+               hue="-1" id="6" lockedInTime="false" looped="false" name="Rachel" offline="false" select="false"
+               sourceInPoint="56217080" sourceOutPoint="56280467" startPoint="46269025" zOrder="6">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="7632f718-a39e-4a82-a7c4-78d2b10f351e" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="e246d7e3-c9e5-4f7b-ac96-4a2e7a866449" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="b2c5972d-f653-467f-aa49-ef1f9b2ee3a5" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="63387" shape="19" startPoint="52362" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="91514935" fileID="2"
+               hue="-1" id="7" lockedInTime="false" looped="false" name="Rachel" offline="false" select="false"
+               sourceInPoint="102292741" sourceOutPoint="102413392" startPoint="91394284" zOrder="7">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="b1224e69-ec14-4000-9d39-a6f23806614d" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="307e4d94-0a2f-4bde-92bf-dc2dffe0e109" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="d9ee7500-caea-4782-87ff-4cf07f487b83" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="120651" shape="19" startPoint="109626" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="98210125" fileID="2"
+               hue="-1" id="8" lockedInTime="false" looped="false" name="Rachel" offline="false" select="false"
+               sourceInPoint="109190273" sourceOutPoint="109265387" startPoint="98135011" zOrder="8">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="98c24835-dc66-446d-a89a-3f60f2b5a886" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="db008f7b-97cc-457c-84cb-1966cf0586c7" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="bc5cdb77-bffa-440e-9029-ce34310ce747" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="75114" shape="19" startPoint="64089" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="101684505"
+               fileID="2" hue="-1" id="9" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="111096938" sourceOutPoint="112739768" startPoint="100041675" zOrder="9">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="50f77a9b-ccb3-4ad2-9479-90d7dd89000a" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="8a4e7ebb-0bd9-46d1-aa97-54ff74481add" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="7d15faad-c540-48b0-9e95-a944191ff48a" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="1642830" shape="19" startPoint="1631805" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="102047263"
+               fileID="2" hue="-1" id="10" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="113045227" sourceOutPoint="113102422" startPoint="101990068" zOrder="11">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="8829af74-2095-4c24-ba74-03ae2611dcd1" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="7f1731d4-568e-485f-ad05-9501e709c74c" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="364f6691-79b0-4876-9394-d5c88388549e" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="57195" shape="19" startPoint="46170" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="102279836"
+               fileID="2" hue="-1" id="11" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="113276002" sourceOutPoint="113334995" startPoint="102220843" zOrder="12">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="c08641d2-3b06-4f1b-a684-7c3b2be5843b" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="e4aa0aac-ed92-4d2f-b0da-9de05359685b" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="97c4fe1f-44fd-4699-a58c-f3409c70ebcf" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="58993" shape="19" startPoint="47968" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="107251470"
+               fileID="2" hue="-1" id="12" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="118160882" sourceOutPoint="118306629" startPoint="107105723" zOrder="14">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="c4a4f635-9744-45f8-8383-94836a98cb1a" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="84945729-6cc3-4e77-976f-ee4d31302d70" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="ac188ad5-104e-4854-830f-f7a73c863e08" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="145747" shape="19" startPoint="134722" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="107783709"
+               fileID="2" hue="-1" id="13" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="118465000" sourceOutPoint="118838870" startPoint="107409839" zOrder="13">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="cf8be256-f292-4233-b792-5221479dce59" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="fb382f17-c28b-4b8a-b2b2-66ebd3805232" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="7f066b65-edb3-48ec-b6ac-3e195decc9b9" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="373870" shape="18" startPoint="373870" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="110814025"
+               fileID="2" hue="-1" id="14" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="121733978" sourceOutPoint="121953039" startPoint="110594964" zOrder="15">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="a02b45c5-b242-49b2-b012-32e6ee6272c6" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="cf43d5c9-019d-4fbc-b47c-fe7c70f0a1f9" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="b5196775-d242-4fb2-91ca-e1432820ffed" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="219061" shape="19" startPoint="208036" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="113072400"
+               fileID="2" hue="-1" id="15" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="124107872" sourceOutPoint="124184994" startPoint="112995278" zOrder="132">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}}}"/>
+        <component componentGuid="da82cda8-8efb-4e22-ad3f-7a512e0aa837" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="84381946-0aa3-41f5-a14a-e82f1fb95e03" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="5d11e1ed-c068-4b34-8343-f1bbad4307cc" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="77122" shape="19" startPoint="77122" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="125769836"
+               fileID="2" hue="-1" id="16" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="138703618" sourceOutPoint="138853606" startPoint="125619848" zOrder="173">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}},&quot;TempData&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}"/>
+        <component componentGuid="63195dd7-d310-42b9-aec6-1edd6fca7366" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="dfab65ff-98a3-4d80-ab8c-1d4dcc899827" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="7404ed14-521f-40b7-b543-6415035c2e5f" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="149988" shape="19" startPoint="138963" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="126898783"
+               fileID="2" hue="-1" id="17" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="139857010" sourceOutPoint="139981495" startPoint="126774298" zOrder="171">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}},&quot;TempData&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}"/>
+        <component componentGuid="12659621-95e3-4797-be43-e43a6eedb3ae" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="7637c0e1-14c3-40d7-829a-ac0a16d86ac0" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="834cf774-0bba-4e16-a79b-016a3831a6f3" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="124485" shape="19" startPoint="124485" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="127011865"
+               fileID="2" hue="-1" id="18" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="140018905" sourceOutPoint="140094577" startPoint="126936193" zOrder="171">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}},&quot;TempData&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}"/>
+        <component componentGuid="dc919c22-26b5-4bb9-a456-5e95e9520fa2" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="b1754867-0c04-42ff-99a0-f429de50e5d0" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="b4d6fa42-6c7b-446e-bd99-39f0cfd7b588" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="0" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="75672" shape="19" startPoint="64647" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="20" endPoint="128919473"
+               fileID="2" hue="-1" id="19" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="140269403" sourceOutPoint="142002185" startPoint="127186691" zOrder="166">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}},&quot;TempData&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}"/>
+        <component componentGuid="94cc8c56-084b-48e8-9450-527625d6f5cb" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="7bf23d1e-3110-44d7-b546-c2d32d949340" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="8c84e3ad-e352-46ed-a26b-6af112296695" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="1732782" shape="19" startPoint="1721910" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="19" crossFadeTailClipID="21" endPoint="128948400"
+               fileID="2" hue="-1" id="20" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="142002185" sourceOutPoint="142041984" startPoint="128908601" zOrder="199">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}},&quot;TempData&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}"/>
+        <component componentGuid="b8a44136-4aed-4a8f-83a5-b25739cfac7e" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="07edf1a2-1fe4-4955-8547-33997e979c2a" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="dac07c4e-b13c-4ff9-b6e5-de766419cd11" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="10872" shape="18" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="39799" shape="19" startPoint="32364" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="20" crossFadeTailClipID="22" endPoint="129098566"
+               fileID="2" hue="-1" id="21" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="142041984" sourceOutPoint="142199585" startPoint="128940965" zOrder="200">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}},&quot;TempData&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}"/>
+        <component componentGuid="fe6ac874-e8b3-40e3-9f69-eb0795acfc14" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="d5fe52a5-f328-437c-b9fb-970a3dec417c" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="2afe229e-8753-42ed-8ce0-b3f210ba5cc6" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="7435" shape="18" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="157601" shape="19" startPoint="129743" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="21" crossFadeTailClipID="-1" endPoint="132668108"
+               fileID="2" hue="-1" id="22" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="142199585" sourceOutPoint="145796985" startPoint="129070708" zOrder="201">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}},&quot;TempData&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}"/>
+        <component componentGuid="0156d6b4-a9c0-4b85-869b-3aea87276bdc" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="8d24d33c-6b8d-48a3-955c-741e5afe0ee8" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="e7ad42d3-6a63-4748-bb9e-21e3840386d4" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="27858" shape="18" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="3597400" shape="19" startPoint="3586375" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="137084082"
+               fileID="2" hue="-1" id="23" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="150132441" sourceOutPoint="150221626" startPoint="136994897" zOrder="211">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}},&quot;TempData&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}"/>
+        <component componentGuid="33bc9b27-9929-4586-ad1f-613852b9db87" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="9abea2b1-a7d1-4378-8fe8-30eb23b029a1" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="d82fe7f0-0c37-4c62-ba37-a380fc2d535f" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="89185" shape="19" startPoint="78160" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+    <audioClip clipAutoCrossfade="true" crossFadeHeadClipID="-1" crossFadeTailClipID="-1" endPoint="137209075"
+               fileID="2" hue="-1" id="24" lockedInTime="false" looped="false" name="Rachel" offline="false"
+               select="false" sourceInPoint="150275350" sourceOutPoint="150346619" startPoint="137137806" zOrder="212">
+        <properties
+                properties="{&quot;BasicAdjustmentsProperty&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;AdjustmentMode&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;dialog&quot;},&quot;ClaritySection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Dynamics&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;2&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:3}}}}},&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;ClipType&quot;:{&quot;type&quot;:&quot;std::int32_t&quot;,&quot;value&quot;:1},&quot;EnhanceSpeechSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}},&quot;PresetGuid&quot;:{&quot;type&quot;:&quot;UTF8String&quot;,&quot;value&quot;:&quot;bb717b4a-c0b1-4def-9040-3fb8e83b8a91&quot;},&quot;RestorationSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;ReduceHum&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;4&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:7.143000602722168}}},&quot;9&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:60}}}}}}},&quot;SoundEffectsSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true},&quot;Reverb&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;3&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Value&quot;:{&quot;type&quot;:&quot;float&quot;,&quot;value&quot;:2}}}}}}},&quot;VolumeSection&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{&quot;Enabled&quot;:{&quot;type&quot;:&quot;bool&quot;,&quot;value&quot;:true}}}}},&quot;TempData&quot;:{&quot;type&quot;:&quot;tree::any&quot;,&quot;value&quot;:{}}}"/>
+        <component componentGuid="e2fc9cf5-493f-490a-8e0b-be21ddb78945" componentID="Audition.Fader" id="clipGain"
+                   name="volume" powered="true">
+            <parameter index="0" name="volume" parameterValue="1"/>
+            <parameter index="1" name="static gain" parameterValue="1"/>
+        </component>
+        <component componentGuid="a76721a0-aa35-4c12-8882-8cb4453b4664" componentID="Audition.Mute" id="clipMute"
+                   name="Mute" powered="true">
+            <parameter index="0" parameterValue="0"/>
+            <parameter index="1" name="mute" parameterValue="0"/>
+        </component>
+        <component componentGuid="d8e4659b-9967-406f-8384-964f7b53256a" componentID="Audition.StereoPanner" id="clipPan"
+                   name="StereoPanner" powered="true">
+            <parameter index="0" name="Pan" parameterValue="0"/>
+        </component>
+        <fadeIn crossFadeLinkType="linkedAsymmetric" endPoint="11025" shape="19" startPoint="0" type="log"/>
+        <fadeOut crossFadeLinkType="linkedAsymmetric" endPoint="71269" shape="19" startPoint="60244" type="log"/>
+        <editParameter parameterIndex="0" slotIndex="4294967280"/>
+        <editParameter parameterIndex="0" slotIndex="4294967281"/>
+        <channelMap>
+            <channel index="0" sourceIndex="0"/>
+        </channelMap>
+    </audioClip>
+</audioTrack>

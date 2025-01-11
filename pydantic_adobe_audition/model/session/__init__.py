@@ -17,7 +17,6 @@ class Session(BaseSesxModel, tag="session"):
     bit_depth: str = attr(name="bitDepth")
     duration: str = attr(name="duration")
     sample_rate: int = attr(name="sampleRate")
-    text: str | None = None
     tracks: Tracks = element()
     session_state: SessionState = element(tag="sessionState")
     xmp_metadata: str = element(tag="xmpMetadata")

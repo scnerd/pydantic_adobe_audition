@@ -9,5 +9,4 @@ class Property(BaseSesxModel, tag="property"):
 
 
 class SessionProperties(BaseSesxModel, tag="properties"):
-    text: str | None = None
     properties: list[Property] = element(tag="property", default_factory=list)

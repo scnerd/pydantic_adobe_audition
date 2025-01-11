@@ -6,7 +6,7 @@ This is fully powered by pydantic and pydantic-xml,
  providing high performance and reliability.
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 from .model import Sesx
 

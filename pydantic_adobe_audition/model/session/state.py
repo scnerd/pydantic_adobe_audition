@@ -37,7 +37,6 @@ class MixingOptionState(BaseSesxModel, tag="mixingOptionState"):
 class SessionState(BaseSesxModel, tag="SessionState"):
     cti_position: str = attr(name="ctiPosition")
     smpte_start: str = attr(name="smpteStart")
-    text: str | None = None
     selection_state: SelectionState = element()
     view_state: ViewState = element()
     time_format_state: TimeFormatState = element()
